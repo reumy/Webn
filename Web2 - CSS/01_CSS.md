@@ -10,17 +10,25 @@ a { color : red };
 - property : 속성 ( color )
 - value : 값 ( red )
 
-## 박스모델
+## CSS 코드의 재사용
+- 중복을 제거하고 가독성을 높이고 유지보수에 용이함
+```
+<link rel="stylesheet" href="style.css">
+```
+- `캐싱 : 저장해 놓는 것`
+> 내 컴퓨터에 미리 저장해놓아 네트워크를 쓰지않게 되어 속도가 높아지고 사용량이 적어짐
+
+### 박스모델
 - block과 inline은 display 속성의 기본값이며, 변경이 가능함
 - display : block, inline, none
 
-### block(block level element)
+#### block(block level element)
 - 화면 전체를 씀
 
-### inline(inline element)
+#### inline(inline element)
 - 자기 자신의 컨텐츠 만큼만 씀
 
-### 기능이 없는 무색무취의 태그
+#### 기능이 없는 무색무취의 태그
 - div : block
 - span : inline
 
