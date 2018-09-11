@@ -11,8 +11,16 @@ a { color : red };
 - value : 값 ( red )
 
 ## 박스모델
-#### block
 - block과 inline은 display 속성의 기본값이며, 변경이 가능함
-  - block level element : 화면 전체를 씀
-  - inline element : 자기 자신의 컨텐츠 만큼만 씀
 - display : block, inline, none
+
+### block(block level element)
+- 화면 전체를 씀
+
+### inline(inline element)
+- 자기 자신의 컨텐츠 만큼만 씀
+
+### 기능이 없는 무색무취의 태그
+- div : block
+- span : inline
+
