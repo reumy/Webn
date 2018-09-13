@@ -1,4 +1,5 @@
 ## this
+- 함수가 소속되어있는 객체를 가르킴
 ```
 <input type="button" onclick="
   if(this.value === 'night'){...}
