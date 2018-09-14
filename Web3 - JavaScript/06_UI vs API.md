@@ -1,8 +1,8 @@
 ## UI (User Interface)
-- 사용자가 시스템을 제어하기위해서 사용하는 조작장치
+- 사용자가 시스템을 제어하기 위해 사용하는 조작장치 (ex. 버튼)
 
 ## API (Application Programming Interface)
-- 조작장치, 문법코드
+- 개발을 위한 조작장치, 문법코드, 환경
 ```
 alert('Hello world');
 ```
