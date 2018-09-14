@@ -1,7 +1,7 @@
-## UI(User Interface)
+## UI (User Interface)
 - 사용자가 시스템을 제어하기위해서 사용하는 조작장치
 
-## API(Application Programming Interface)
+## API (Application Programming Interface)
 - 조작장치, 문법코드
 ```
 alert('Hello world');
