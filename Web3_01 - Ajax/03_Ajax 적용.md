@@ -47,3 +47,29 @@
   <p>The World Wide Web (abbreviated WWW or the Web) is...</p>
 </article>
 ```
+- 리팩토링
+```
+<h1><a href="index.html">WEB</a></h1>
+<input id="night_day" type="button" value="night" onclick="
+  nightDayHandler(this);
+">
+<ol>
+  <li><a onclick="fetchPage('html')">HTML</a></li>
+  <li><a onclick="fetchPage('css')">CSS</a></li>
+  <li><a onclick="fetchPage('javascript')">JavaScript</a></li>
+</ol>
+<article>
+  <h2>WEB</h2>
+  <p>The World Wide Web (abbreviated WWW or the Web) is...</p>
+</article>
+<script>
+  function fetchPage(name){
+    fetch(name).then(function(response){
+      response.text().then(function(text){
+        document.querySelector('article').innerHTML = text;
+      })
+    })
+  }
+</script>
+```
+> 함수화로 중복을 제거
